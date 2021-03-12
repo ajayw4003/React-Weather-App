@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.app{
+  background-image: url("./wp2906111-laptop-flower-wallpaper.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 30px;
+}
+.warm{
+  background-image: url("./wp2906142-laptop-flower-wallpaper.jpg");
+}
+
+.search-box{
+  text-align:center;
+  width: 100%;
+}
+.search-box .search-bar{
+  display: inline-block;
+  width: 70%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: rgba(204, 241, 233, 0.966);
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.5s ease;
+  
+
+}
+.search-box .search-bar:focus{
+  background-color: white;
+  margin-bottom: 30px;
+}
+button{
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: crimson;
+}
+
+p{
+  text-align: center;
+  font-size: 40px;
+  color:red;
+}
+
