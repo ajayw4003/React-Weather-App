@@ -64,7 +64,11 @@ function App() {
         </div>
         { weather.main.temp !== ""? (
           <>
-            <Location currentDate = {currentDate(new Date())} city = {city} error = {error}/>
+            <Location 
+              currentDate = {currentDate(new Date())} 
+              city = {city} error = {error} 
+              setError = {setError} 
+              setCity = {setCity} />
             <Weather weather = {weather}/>
           </>
         ):('')}
