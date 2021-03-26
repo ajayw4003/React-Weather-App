@@ -1,12 +1,7 @@
 import {React} from 'react';
 import "./city.css"
 
-const Location = ({currentDate, city, setError}) => {
-      if(!city){
-        setError("input is wrong")
-      }else{
-        setError("");
-    }
+const Location = ({currentDate, city}) => {
     return (
       <>
         <div className="location-box">
